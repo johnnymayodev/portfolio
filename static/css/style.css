@@ -1,0 +1,35 @@
+@import url(font.css);
+
+:root {
+    --primary-color: #40baff;
+    --secondary-color: #88d4ff;
+    --tertiary-color: #e7f6ff;
+    --text-color: #000000;
+    --background-color: #ffffff;
+
+    --dark-tertiary-color: #081720;
+    --dark-text-color: #ffffff;
+    --dark-background-color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--dark-background-color);
+        color: var(--dark-text-color);
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Noto Sans Mono', sans-serif;
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
