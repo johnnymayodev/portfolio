@@ -6,20 +6,34 @@
     --tertiary-color: #e7f6ff;
     --text-color: #000000;
     --background-color: #ffffff;
-
-    --dark-tertiary-color: #081720;
-    --dark-text-color: #ffffff;
-    --dark-background-color: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: var(--dark-background-color);
-        color: var(--dark-text-color);
+    :root {
+        --primary-color: #40baff;
+        --secondary-color: #88d4ff;
+        --tertiary-color: #081720;
+        --text-color: #ffffff;
+        --background-color: #000000;
+    }
+
+    .icon {
+        filter: invert(1);
     }
 }
 
+
+* {
+    padding: 0;
+    margin: 0;
+
+    transition: all 0.25s ease-in-out;
+}
+
 body {
+    width: 100vw !important;
+    height: 100vh !important;
+
     margin: 0;
     padding: 0;
     
@@ -30,6 +44,124 @@ body {
 
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: auto 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+
+    text-decoration: underline;
+    text-underline-offset: 0.125rem;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+
+#header {
+    width: 100%;
+    height: min-content;
+
+    margin: 3rem 0;
+}
+
+
+#container {
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+
+    height: 100%;
+    width: 100%;
+}
+
+
+#content {
+    width: fit-content;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#content > * {
+    margin: 1rem 0;
+}
+
+#content > h2 {
+    margin: 4rem 0 1rem 0;
+}
+
+
+#projects {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    justify-items: center;
+}
+
+.project {
+    width: 250px;
+    height: fit-content;
+
+    border: 1px solid var(--text-color);
+    border-radius: 14px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project > * {
+    padding: 0.5rem 0.65rem;
+}
+
+.project > a {
+    top: 50%;
+    margin: 0;
+    padding: 0;
+
+    width: 40px;
+    height: 40px;
+}
+
+.project > a > img {
+    margin: 0.125rem;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#footer { 
+    font-size: 0.8rem;
+
+    margin: 3rem 0 1rem 0;
+
+    width: 100%;
+    height: min-content;
+
+    position: relative;
+    bottom: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
     align-items: center;
     text-align: center;
 }
