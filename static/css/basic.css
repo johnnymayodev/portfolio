@@ -1,0 +1,24 @@
+:root {
+  --corner-radius: 14px;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: calc(96px * 1.4);
+}
+
+h2 {
+  font-size: 60px;
+  line-height: calc(60px * 1.4);
+}
+
+p {
+  font-size: 14px;
+  line-height: calc(24px * 1.2);
+}
+
+button {
+  font-size: 14px;
+  line-height: calc(24px * 1.2);
+  border-radius: var(--corner-radius);
+}
