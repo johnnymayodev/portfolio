@@ -1,26 +1,5 @@
 @import url(font.css);
-
-:root {
-  --primary-color: #40baff;
-  --secondary-color: #88d4ff;
-  --tertiary-color: #e7f6ff;
-  --text-color: #000000;
-  --background-color: #ffffff;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --primary-color: #40baff;
-    --secondary-color: #88d4ff;
-    --tertiary-color: #081720;
-    --text-color: #ffffff;
-    --background-color: #000000;
-  }
-
-  .icon {
-    filter: invert(1);
-  }
-}
+@import url(colors.css);
 
 * {
   padding: 0;
