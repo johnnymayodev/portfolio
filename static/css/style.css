@@ -1,7 +1,10 @@
-@import url(font.css);
-@import url(colors.css);
-@import url(variables.css);
+/* imports */
 @import url(normalize.css);
+
+/* custom imports */
+@import url(font.css);
+@import url(basic.css);
+@import url(colors.css);
 
 body {
   width: 100vw !important;
