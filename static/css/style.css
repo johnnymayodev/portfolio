@@ -2,7 +2,6 @@
 @import url(normalize.css);
 
 /* custom imports */
-@import url(mobile.css);
 @import url(font.css);
 @import url(basic.css);
 @import url(colors.css);
@@ -19,3 +18,5 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
 }
+
+@import url(mobile.css); /* mobile.css is imported last to take highest priority */
