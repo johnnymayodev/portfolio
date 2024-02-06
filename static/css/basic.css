@@ -2,6 +2,10 @@
   --corner-radius: 8px;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  cursor: default;
+}
+
 h1 {
   font-size: 96px;
   line-height: calc(96px * 1.4);
@@ -10,6 +14,16 @@ h1 {
 h2 {
   font-size: 60px;
   line-height: calc(60px * 1.4);
+}
+
+h3 {
+  font-size: 48px;
+  line-height: calc(48px * 1.4);
+}
+
+h4 {
+  font-size: 32px;
+  line-height: calc(32px * 1.4);
 }
 
 p {
