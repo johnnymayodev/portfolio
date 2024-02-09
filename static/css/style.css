@@ -8,10 +8,10 @@
 
 /* tags */
 body {
-  width: 100vw !important;
-  height: 100vh !important;
+  width: 95vw !important;
+  height: 95vh !important;
 
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 
   font-family: "Noto Sans Mono", sans-serif;
@@ -48,7 +48,6 @@ main {
 /* ---- HEADER ---- */
 
 header {
-  position: fixed;
   width: 100%;
 
   padding: 16px;
