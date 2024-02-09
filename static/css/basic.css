@@ -2,7 +2,13 @@
   --corner-radius: 8px;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   cursor: default;
 }
 
@@ -31,12 +37,6 @@ p {
   line-height: calc(24px * 1.2);
 }
 
-button {
-  font-size: 14px;
-  line-height: calc(24px * 1.2);
-
-  border-radius: var(--corner-radius);
-  border-width: 0px;
-  
-  padding: 4px 12px;
+a {
+  color: var(--text-color);
 }
