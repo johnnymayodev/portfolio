@@ -1,4 +1,11 @@
 @font-face {
-    font-family: Noto Sans Mono;
-    src: url(../fonts/NotoSansMono.ttf);
+    font-family: Inter;
+    font-weight: normal;
+    src: url(../fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: bold;
+    src: url(../fonts/Inter-Bold.ttf);
 }
