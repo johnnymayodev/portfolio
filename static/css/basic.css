@@ -1,42 +1,45 @@
 :root {
-  --corner-radius: 8px;
+    --text-scale-ratio: 0.8rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
-p {
-  cursor: default;
+h4 {
+    font-weight: bold;
 }
 
 h1 {
-  font-size: 96px;
-  line-height: calc(96px * 1.4);
+    font-size: calc(var(--text-scale-ratio) * 8);
+    line-height: calc(var(--text-scale-ratio) * 8 * 1.618);
 }
 
 h2 {
-  font-size: 60px;
-  line-height: calc(60px * 1.4);
+    font-size: calc(var(--text-scale-ratio) * 6);
+    line-height: calc(var(--text-scale-ratio) * 6 * 1.4);
 }
 
 h3 {
-  font-size: 48px;
-  line-height: calc(48px * 1.4);
+    font-size: calc(var(--text-scale-ratio) * 4);
+    line-height: calc(var(--text-scale-ratio) * 4 * 1.2);
 }
 
 h4 {
-  font-size: 32px;
-  line-height: calc(32px * 1.4);
+    font-size: calc(var(--text-scale-ratio) * 3);
+    line-height: calc(var(--text-scale-ratio) * 3 * 1.1);
 }
 
 p {
-  font-size: 14px;
-  line-height: calc(24px * 1.2);
+    font-size: calc(var(--text-scale-ratio) * 2);
+    line-height: calc(var(--text-scale-ratio) * 2 * 1.25);
 }
 
 a {
-  color: var(--text-color);
+    color: var(--text-color);
+    text-decoration: none;
 }
