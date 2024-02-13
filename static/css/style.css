@@ -6,98 +6,29 @@
 @import url(basic.css);
 @import url(colors.css);
 
+/* custom classes */
+@import url(classes/card.css);
+
+/* mobile css */
+@import url(mobile.css);
+
+/* debugging */
+/* @import url(debug.css); */
+
 /* tags */
 body {
-  width: 95vw !important;
-  height: 95vh !important;
-
-  margin: 0 auto;
-  padding: 0;
-
-  font-family: "Noto Sans Mono", sans-serif;
-
-  background-image: url("../imgs/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-
-  /* disable text selection */
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-
-  background-color: var(--background-color);
-  color: var(--text-color);
+    font-family: Inter;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
-
-/* ---- MAIN ---- */
 
 main {
-  width: 100%;
-  height: 100%;
+    width: 900px;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
-/* ---- HEADER ---- */
-
-header {
-  width: 100%;
-
-  padding: 16px;
-
-  display: flex;
-  justify-content: center;
-
-  /* blur the background */
-  background-color: rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-
-  z-index: 100;
+main > * {
+    margin: 8rem 0;
 }
-
-header > a {
-  width: 16.66667vw;
-
-  text-align: center;
-
-  text-decoration: none;
-  color: var(--text-color);
-  font-size: 20px;
-  line-height: calc(24px * 1.4);
-  font-weight: bold;
-
-  transition: color 0.2s;
-}
-
-/* ---- FOOTER ---- */
-
-footer {
-  width: 100%;
-  height: 72px;
-
-  display: flex;
-  justify-content: center;
-  gap: 128px;
-  align-items: center;
-
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-
-  z-index: 100;
-}
-
-footer > p {
-  width: 16.66667vw;
-  text-align: center;
-}
-
-@import url(mobile.css); /* mobile.css is imported last to take highest priority */
