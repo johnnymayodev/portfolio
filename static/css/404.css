@@ -1,10 +1,10 @@
 @import url(font.css);
 
 body {
-  margin: 16px 24px;
-  font-family: "Noto Sans Mono", sans-serif;
-  color: white;
-  background-color: black;
+    margin: 16px 24px;
+    font-family: "Inter";
+    color: white;
+    background-color: black;
 }
 
 button {
@@ -18,5 +18,4 @@ button {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.2s;
-
 }
