@@ -2,7 +2,7 @@
 @import url(normalize.css);
 
 /* custom imports */
-@import url(font.css);
+@import url(../inter/inter.css);
 @import url(basic.css);
 @import url(colors.css);
 
