@@ -1,102 +1,128 @@
 <!-- If you're reading this, you're probably a nerd like me. -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Johnny Mayo</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Johnny Mayo</title>
 
-        <link rel="stylesheet" href="static/css/style.css" />
-    </head>
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
 
-    <body>
-        <main>
-            <!-- About me section -->
-            <div>
-                <h2>Hi, I'm Johnny.</h2>
-                <p>
-                    I'm a software engineer studying at the
-                    <a href="https://www.njit.edu" target="_blank"
-                        >New Jersey Institute of Technology</a
-                    >. I'm passionate about building web apps and I love to
-                    learn new things.
-                </p>
-            </div>
+  <body>
+    <main>
+      <!-- About me section -->
+      <div class="title">
+        <h2>Hi, I'm Johnny.</h2>
+        <p>
+          I'm a software engineer studying at the
+          <a href="https://www.njit.edu" target="_blank"
+            >New Jersey Institute of Technology</a
+          >. I'm passionate about building web apps and I love to learn new
+          things. Currently, I'm practicing my skills with React, Svelte, and
+          Node.js.
+        </p>
+        <p style="font-size: 20px">Made with:</p>
+        <img
+          width="32"
+          height="32"
+          src="https://img.icons8.com/color/100/html-5--v1.png"
+          alt="html"
+        />
+        <img
+          width="32"
+          height="32"
+          src="https://img.icons8.com/color/100/css3.png"
+          alt="css"
+        />
+        <img
+          width="32"
+          height="32"
+          src="https://img.icons8.com/color/100/javascript--v1.png"
+          alt="js"
+        />
+        <img
+          width="32"
+          height="32"
+          src="https://img.icons8.com/color/100/python--v1.png"
+          alt="python"
+        />
+      </div>
 
-            <!-- Pixel Puzzle -->
-            <div class="card">
-                <div>
-                    <div>
-                        <h4>Pixel Puzzle</h4>
-                        <p>Team Project - Current</p>
-                    </div>
-                    <p>
-                        Pixel Puzzle is a web game where the player tries to
-                        guess what object is in a pixelated image. It's
-                        currently in development and a prototype is coming soon.
-                    </p>
-                    <div class="buttons">
-                        <a
-                            href="https://www.github.com/johnnymayodev/pixel-puzzle/"
-                            target="_blank"
-                        >
-                            <button>View on GitHub</button>
-                        </a>
-                        <a
-                            href="https://pixelpuzzle.johnnymayo.com/"
-                            target="_blank"
-                        >
-                            <button>Website</button>
-                        </a>
-                    </div>
-                </div>
-                <img src="static/imgs/pixel-puzzle-logo.jpg" />
-            </div>
+      <!-- Pixel Puzzle -->
+      <div class="card">
+        <div>
+          <div>
+            <h4>Pixel Puzzle</h4>
+            <p>Team Project - Current</p>
+          </div>
+          <p>
+            Pixel Puzzle is a web game where the player tries to guess what
+            object is in a pixelated image. It's currently in development and a
+            prototype is coming soon.
+          </p>
+          <div class="buttons">
+            <a
+              href="https://www.github.com/johnnymayodev/pixel-puzzle/"
+              target="_blank"
+            >
+              <button>View on GitHub</button>
+            </a>
+            <a href="https://pixelpuzzle.johnnymayo.com/" target="_blank">
+              <button>Website</button>
+            </a>
+          </div>
+        </div>
+        <img src="static/imgs/pixel-puzzle-logo.jpg" />
+      </div>
 
-            <!-- Foreign Whispers -->
-            <div class="card">
-                <div>
-                    <div>
-                        <h4>Foreign Whispers</h4>
-                        <p>Team Project - 2023</p>
-                    </div>
-                    <p>
-                        Foreign Whispers uses mutliple APIs to translate the
-                        audio of a video into a different language. It also
-                        generates subtitles for the translated audio.
-                    </p>
-                    <div class="buttons">
-                        <a
-                            href="https://www.github.com/johnnymayodev/foreign-whispers/"
-                            target="_blank"
-                        >
-                            <button>View on GitHub</button>
-                        </a>
-                    </div>
-                </div>
-                <img src="static/imgs/foreign-whispers-preview.png" />
-            </div>
+      <!-- Foreign Whispers -->
+      <div class="card">
+        <div>
+          <div>
+            <h4>Foreign Whispers</h4>
+            <p>Team Project - 2023</p>
+          </div>
+          <p>
+            Foreign Whispers uses mutliple APIs to translate the audio of a
+            video into a different language. It also generates subtitles for the
+            translated audio.
+          </p>
+          <div class="buttons">
+            <a
+              href="https://www.github.com/johnnymayodev/foreign-whispers/"
+              target="_blank"
+            >
+              <button>View on GitHub</button>
+            </a>
+          </div>
+        </div>
+        <img src="static/imgs/foreign-whispers-preview.png" />
+      </div>
 
-            <!-- Wordle Forever -->
-            <div class="card">
-                <div>
-                    <div>
-                        <h4>Wordle Forever</h4>
-                        <p>Solo Project - Current</p>
-                    </div>
-                    <p>
-                        Wordle Forever is a Wordle clone that I am builting with
-                        <a href="https://svelte.dev" target="_blank">Svelte</a>.
-                        It's a work in progress and I'm excited to see where it
-                        goes.
-                    </p>
-                    <div class="buttons">
-                        <button>Work in progess</button>
-                    </div>
-                </div>
-                <img src="static/imgs/wordle-logo.png" />
-            </div>
-        </main>
-    </body>
-    <script src="static/js/app.js"></script>
+      <!-- Wordle Forever -->
+      <div class="card">
+        <div>
+          <div>
+            <h4>Wordle Forever</h4>
+            <p>Solo Project - Current</p>
+          </div>
+          <p>
+            Wordle Forever is a Wordle clone that I am builting with
+            <a href="https://svelte.dev" target="_blank">Svelte</a>. It's a work
+            in progress and I'm excited to see where it goes.
+          </p>
+          <div class="buttons">
+            <button>Work in progess</button>
+          </div>
+        </div>
+        <img src="static/imgs/wordle-logo.png" />
+      </div>
+    </main>
+    <footer>
+      <!-- icons by icons8 -->
+      <a href="https://icons8.com/" target="_blank">Icons by Icons8</a>
+    </footer>
+  </body>
+  <script src="static/js/app.js"></script>
 </html>

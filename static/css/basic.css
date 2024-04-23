@@ -1,44 +1,44 @@
 :root {
-    --text-scale-ratio: 0.8rem;
+  --text-scale-ratio: 0.8rem;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 h1 {
-    font-size: calc(var(--text-scale-ratio) * 8);
-    line-height: calc(var(--text-scale-ratio) * 8 * 1.618);
+  font-size: calc(var(--text-scale-ratio) * 8);
+  line-height: calc(var(--text-scale-ratio) * 8 * 1.618);
 }
 
 h2 {
-    font-size: calc(var(--text-scale-ratio) * 6);
-    line-height: calc(var(--text-scale-ratio) * 6 * 1.4);
+  font-size: calc(var(--text-scale-ratio) * 6);
+  line-height: calc(var(--text-scale-ratio) * 6 * 1.4);
 }
 
 h3 {
-    font-size: calc(var(--text-scale-ratio) * 4);
-    line-height: calc(var(--text-scale-ratio) * 4 * 1.2);
+  font-size: calc(var(--text-scale-ratio) * 4);
+  line-height: calc(var(--text-scale-ratio) * 4 * 1.2);
 }
 
 h4 {
-    font-size: calc(var(--text-scale-ratio) * 3);
-    line-height: calc(var(--text-scale-ratio) * 3 * 1.1);
+  font-size: calc(var(--text-scale-ratio) * 3);
+  line-height: calc(var(--text-scale-ratio) * 3 * 1.1);
 }
 
 p {
-    font-size: calc(var(--text-scale-ratio) * 2);
-    line-height: calc(var(--text-scale-ratio) * 2 * 1.25);
+  font-size: calc(var(--text-scale-ratio) * 2);
+  line-height: calc(var(--text-scale-ratio) * 2 * 1.25);
 }
 
 a {
-    color: var(--text-color);
+  color: var(--text-color);
 }

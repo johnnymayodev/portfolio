@@ -1,32 +1,12 @@
 :root {
-    /* main */
-    --text-color: #323232;
-    --background-color: #f6f6f6;
-
-    /* card */
-    --card-background-color: #ededed;
-    --card-hover-background-color: #f6f6f6;
-    --card-text-color: #323232;
-    --card-paragraph-color: #5e5e6f;
-    --card-button-background-color: #ffffff;
-    --card-button-border-color: #fafafa;
-    --card-button-hover-background-color: #f8f8f9;
+  --text-color: #323232;
+  --background-color: #f6f6f6;
 }
 
 /* dark mode */
 @media (prefers-color-scheme: dark) {
-    :root {
-        /* main */
-        --text-color: #f6f6f6;
-        --background-color: #323232;
-
-        /* card */
-        --card-background-color: #2c2c2c;
-        --card-hover-background-color: #373737;
-        --card-text-color: #ededed;
-        --card-paragraph-color: #b6b6b6;
-        --card-button-background-color: #3c3c3c;
-        --card-button-border-color: #2c2c2c;
-        --card-button-hover-background-color: #4c4c4c;
-    }
+  :root {
+    --text-color: #f6f6f6;
+    --background-color: #323232;
+  }
 }

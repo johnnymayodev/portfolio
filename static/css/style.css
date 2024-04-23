@@ -1,8 +1,8 @@
 /* imports */
 @import url(normalize.css);
+@import url(../inter/inter.css);
 
 /* custom imports */
-@import url(../inter/inter.css);
 @import url(basic.css);
 @import url(colors.css);
 
@@ -17,18 +17,23 @@
 
 /* tags */
 body {
-    font-family: Inter;
-    background-color: var(--background-color);
-    color: var(--text-color);
+  font-family: Inter, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 main {
-    width: 900px;
+  width: 900px;
 
-    margin: 0 auto;
-    padding: 2rem;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 main > * {
-    margin: 8rem 0;
+  margin: 4rem 0;
+}
+
+/* classes */
+.title > p {
+  margin-top: 1rem;
 }
