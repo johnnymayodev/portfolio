@@ -42,3 +42,65 @@ p {
 a {
   color: var(--text-color);
 }
+
+/* tags */
+body {
+  scrollbar-width: none;
+  font-family: Inter, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+main {
+  scrollbar-width: none;
+  width: 900px;
+
+  margin: 0 auto;
+  padding: 0 4rem;
+
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100dvh;
+}
+
+main > section {
+  display: flex;
+  align-items: center;
+  scroll-snap-align: start;
+  height: 100dvh;
+  margin: 4rem 0;
+}
+
+/* classes */
+.title > p {
+  margin: 1.5rem 0;
+}
+
+.scroll-helper-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scroll-helper {
+  position: absolute;
+  bottom: 2rem;
+  z-index: 1;
+  animation: bounce 2.5s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-16px);
+  }
+  60% {
+    transform: translateY(-8px);
+  }
+}

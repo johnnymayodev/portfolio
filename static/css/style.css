@@ -14,36 +14,3 @@
 
 /* debugging */
 /* @import url(debug.css); */
-
-/* tags */
-body {
-  scrollbar-width: none;
-  font-family: Inter, sans-serif;
-  background-color: var(--background-color);
-  color: var(--text-color);
-}
-
-main {
-  scrollbar-width: none;
-  width: 900px;
-
-  margin: 0 auto;
-  padding: 0 4rem;
-
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
-}
-
-main > section {
-  display: flex;
-  align-items: center;
-  scroll-snap-align: start;
-  height: 100vh;
-  margin: 4rem 0;
-}
-
-/* classes */
-.title > p {
-  margin-top: 1rem;
-}
