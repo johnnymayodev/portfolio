@@ -1,4 +1,8 @@
 @media screen and (max-width: 1000px) {
+  :root {
+    --text-scale-ratio: 0.6rem;
+  }
+
   main {
     width: 80%;
     padding: 0 2rem;
