@@ -27,7 +27,7 @@
   color: var(--card-text-color);
   border-radius: 12px;
 
-  padding: 3rem 0 3rem calc(1.618 * 3rem);
+  padding: 3rem;
 
   overflow: hidden;
 
@@ -56,9 +56,8 @@
 
 .card img {
   width: 100%;
-  /* height: 80%; */
   object-fit: cover;
-  border-radius: 12px 0 0 12px;
+  border-radius: 12px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
 }
 
@@ -66,7 +65,7 @@
   grid-column: 1 / 2;
   display: grid;
   grid-template-rows: 1fr 2fr 1fr;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .card .buttons {
