@@ -21,8 +21,6 @@
 }
 
 .card {
-    height: 350px;
-
     background-color: var(--card-background-color);
     color: var(--card-text-color);
     border-radius: 12px;
