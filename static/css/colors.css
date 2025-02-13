@@ -1,12 +1,12 @@
 :root {
-  --text-color: #323232;
-  --background-color: #f6f6f6;
+    --text-color: #323232;
+    --background-color: #f6f6f6;
 }
 
 /* dark mode */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --text-color: #f6f6f6;
-    --background-color: #323232;
-  }
+    :root {
+        --text-color: #f6f6f6;
+        --background-color: #323232;
+    }
 }
