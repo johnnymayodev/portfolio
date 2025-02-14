@@ -18,7 +18,7 @@
         gap: 1rem;
     }
 
-    .card img {
+    .card > img {
         display: none;
     }
 
