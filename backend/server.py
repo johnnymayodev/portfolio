@@ -18,7 +18,7 @@ def page(path):
     if not os.path.exists(f"templates/{path}.html"):
         return render_template("404.html"), 404
 
-    return render_template(path + ".html")
+    return render_template(f"{path}.html")
 
 
 if __name__ == "__main__":
