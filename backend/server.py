@@ -12,7 +12,10 @@ def index():
 
 @app.route("/<path>")
 def page(path):
-    if not os.path.exists("templates/" + path + ".html"):
+    if path.endswith(".html"):
+            path = path[:-5]  # Remove the last 5 characters (.html)
+
+    if not os.path.exists(f"templates/{path}.html"):
         return render_template("404.html"), 404
 
     return render_template(path + ".html")
