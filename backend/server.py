@@ -1,8 +1,8 @@
-from flask import Flask, render_template #type: ignore
+from flask import Flask, render_template  # type: ignore
 
 
 app = Flask(__name__, template_folder="../templates", static_folder="../static")
-port = 3000
+port = 7999
 
 
 @app.route("/")
