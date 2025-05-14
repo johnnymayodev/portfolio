@@ -8,4 +8,4 @@ services:
       context: .
       dockerfile: dockerfile
     ports:
-      - ${PORT}:8080
+      - ${PORT}:8001

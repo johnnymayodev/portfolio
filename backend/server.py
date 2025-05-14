@@ -2,7 +2,7 @@ from flask import Flask, render_template  # type: ignore
 
 
 app = Flask(__name__, template_folder="../templates", static_folder="../static")
-port = 8080
+port = 8001
 
 
 @app.route("/")
