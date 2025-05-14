@@ -10,6 +10,6 @@ RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-EXPOSE 7999
+EXPOSE 8000
 
 CMD [ "python", "backend/server.py" ]
